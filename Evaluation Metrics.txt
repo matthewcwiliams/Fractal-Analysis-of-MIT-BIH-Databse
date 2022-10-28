@@ -1,0 +1,29 @@
+              precision    recall  f1-score   support
+
+           0       0.93      0.95      0.94      9989
+           1       0.88      0.87      0.87      1578
+           2       0.82      0.85      0.84      1406
+           3       0.96      0.91      0.93       489
+           4       0.85      0.70      0.77      1438
+
+    accuracy                           0.91     14900
+   macro avg       0.89      0.85      0.87     14900
+weighted avg       0.90      0.91      0.90     14900
+
+
+
+10 Fold Cross Validation C = 100
+
+Fold:  1, Training/Test Split Distribution: [36010  5780  5035  1810  5005], Accuracy: 0.908
+Fold:  2, Training/Test Split Distribution: [36010  5780  5035  1810  5005], Accuracy: 0.908
+Fold:  3, Training/Test Split Distribution: [36009  5780  5035  1810  5006], Accuracy: 0.906
+Fold:  4, Training/Test Split Distribution: [36010  5779  5035  1810  5006], Accuracy: 0.897
+Fold:  5, Training/Test Split Distribution: [36010  5779  5035  1810  5006], Accuracy: 0.905
+Fold:  6, Training/Test Split Distribution: [36010  5780  5035  1809  5006], Accuracy: 0.901
+Fold:  7, Training/Test Split Distribution: [36010  5780  5034  1810  5006], Accuracy: 0.906
+Fold:  8, Training/Test Split Distribution: [36010  5780  5034  1810  5006], Accuracy: 0.903
+Fold:  9, Training/Test Split Distribution: [36010  5780  5034  1810  5006], Accuracy: 0.907
+Fold: 10, Training/Test Split Distribution: [36010  5780  5034  1810  5006], Accuracy: 0.904
+
+
+Cross-Validation accuracy: 0.904 +/- 0.003
